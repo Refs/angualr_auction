@@ -8,6 +8,7 @@ import { SearchComponent } from './search/search.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProductComponent } from './product/product.component';
 import { FooterComponent } from './footer/footer.component';
+import { StarsComponent } from './stars/stars.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     SearchComponent,
     CarouselComponent,
     ProductComponent,
-    FooterComponent
+    FooterComponent,
+    StarsComponent
   ],
   imports: [
     BrowserModule
